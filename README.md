@@ -1,7 +1,8 @@
-<script type="text/javascript">
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-  MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+<script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
+        onload="MathJax.Hub.Queue(['Typeset', MathJax.Hub]);">
 </script>
+
 
 # Embedded UPS Controller with Web-Based HMI
 
