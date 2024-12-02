@@ -25,9 +25,6 @@ For more information, visit [![Portfolio](https://img.shields.io/badge/GitHub-Po
   - **Current Transformer**: Measures load current.
 - **Load Power Calculation**: Calculates instantaneous power using the formula: $P = V \times I$ (approximated for AC loads).
 - **Serial Communication**: Sends measurement data and system status to a webserver.
-$$
-  P = V \times I
-$$
 
 ### Control Algorithm
 The system uses an intelligent algorithm to activate or deactivate UPS units based on load power demand:
