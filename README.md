@@ -1,3 +1,8 @@
+<script type="text/javascript">
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+  MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+</script>
+
 # Embedded UPS Controller with Web-Based HMI
 
 This project was developed as part of the **end-of-year capstone project** at **Sidi Mohammed Ben Abdellah University, Fez**, showcasing the integration of embedded systems with power electronics and real-time monitoring. It focuses on dynamically managing a group of 4 UPS units to optimize power delivery based on real-time load demands, with a **web-based Human-Machine Interface (HMI)** for efficient monitoring and control.
@@ -91,6 +96,4 @@ The system uses an intelligent algorithm to activate or deactivate UPS units bas
 
 For more information, visit [![Portfolio](https://img.shields.io/badge/GitHub-Portfolio-blue?logo=github)](https://salhina.github.io/) or connect on [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/nabil-salhi).
 
-<script type="text/javascript">
-  MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-</script>
+
