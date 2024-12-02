@@ -1,8 +1,19 @@
 # Embedded UPS Controller with Web-Based HMI
 
-**Project Duration**: March 2013 - June 2013  
+This project was developed as part of the **end-of-year capstone project** at **Sidi Mohammed Ben Abdellah University, Fez**, showcasing the integration of embedded systems with power electronics and real-time monitoring. It focuses on dynamically managing a group of 4 UPS units to optimize power delivery based on real-time load demands, with a **web-based Human-Machine Interface (HMI)** for efficient monitoring and control.
 
-This project was developed as part of the **end-of-year capstone project** at **Sidi Mohammed Ben Abdellah University, Fez**. It demonstrates the integration of embedded systems with power electronics and real-time monitoring. The objective was to design a system capable of managing a group of 4 UPS units by dynamically adjusting their operation based on real-time power demand. A **web-based Human-Machine Interface (HMI)** enables efficient monitoring and control.
+---
+
+## Project Details
+
+- **Project Duration**: March 2013 - June 2013  
+- **University**: Sidi Mohammed Ben Abdellah University, Fez 
+- **Degree**: Master’s Degree in Electronic Systems (State Engineer Program)
+- **Team Members**:
+  - **Nabil Salhi**: Project Lead  
+  - **3 Other Colleagues** (Total team size: 4)  
+
+For more information, visit [Nabil Salhi’s portfolio](https://salhina.github.io/) or connect on [LinkedIn](https://www.linkedin.com/in/nabil-salhi).
 
 ---
 
@@ -80,13 +91,5 @@ The system uses an intelligent algorithm to activate or deactivate UPS units bas
 2. **Scalability**: Can be expanded to manage more UPS units with minor modifications.
 3. **User Accessibility**: Real-time monitoring and control through a simple web interface.
 4. **Robust Design**: Seamless integration of hardware and software components for reliable operation.
-
----
-
-## Team Members
-- **Nabil Salhi**: Project Lead
-- **[3 Other Colleagues]** (Total team size: 4)
-
-For more details, visit [Nabil Salhi’s portfolio](https://salhina.github.io/) or connect on [LinkedIn](https://www.linkedin.com/in/nabil-salhi).
 
 ---
