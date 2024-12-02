@@ -97,21 +97,26 @@ For more information:
 
 
 
-<!--
-<script type="text/javascript" async
-          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-  <script type="text/javascript">
-    MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-  </script>)
-![HMI Screenshot](https://github.com/user-attachments/assets/3588260b-6f96-4e27-ad4a-6b4b007b1 821)
+![](#knsksdfksdkfnksdnfksdsdlflsqqd)
+~~ fsdfsdf ~~
 
+
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>  <script type="text/javascript">  MathJax.Hub.Queue(["Typeset", MathJax.Hub]);  </script>
+
+<!--
 -->
 
 
+<style>
+  .hidden {
+    display: none;
+  }
+</style>
 
-Inline equation: $E = mc^2$
+<p class="hidden">This text is hidden using CSS.</p>
 
-Block equation:
-$$
-\int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
-$$
+
+
+
+
+
