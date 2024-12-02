@@ -1,8 +1,4 @@
-<script type="text/javascript" async
-          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-  <script type="text/javascript">
-    MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-  </script>
+
 
 
 # Embedded UPS Controller with Web-Based HMI
@@ -97,9 +93,3 @@ The system uses an intelligent algorithm to activate or deactivate UPS units bas
   - **3 Other Colleagues** (Total team size: 4)  
 
 For more information, visit [![Portfolio](https://img.shields.io/badge/GitHub-Portfolio-blue?logo=github)](https://salhina.github.io/) or connect on [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/nabil-salhi).
-
-<script type="text/javascript" async
-          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-  <script type="text/javascript">
-    MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-  </script>
