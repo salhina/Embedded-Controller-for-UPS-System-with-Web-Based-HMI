@@ -7,13 +7,12 @@ This project was developed as part of the **end-of-year capstone project** at **
 ## Project Details
 
 - **Project Duration**: March 2013 - June 2013  
-- **University**: Sidi Mohammed Ben Abdellah University, Fez 
-- **Degree**: Master’s Degree in Electronic Systems (State Engineer Program)
+- **University**: Sidi Mohammed Ben Abdellah University, Fez  
 - **Team Members**:
   - **Nabil Salhi**: Project Lead  
   - **3 Other Colleagues** (Total team size: 4)  
 
-For more information, visit [Nabil Salhi’s portfolio](https://salhina.github.io/) or connect on [LinkedIn](https://www.linkedin.com/in/nabil-salhi).
+For more information, visit [![Portfolio](https://img.shields.io/badge/GitHub-Portfolio-blue?logo=github)](https://salhina.github.io/) or connect on [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/nabil-salhi).
 
 ---
 
@@ -24,7 +23,13 @@ For more information, visit [Nabil Salhi’s portfolio](https://salhina.github.i
 - **Real-Time Measurements**:
   - **Voltage Transformer**: Measures system voltage.
   - **Current Transformer**: Measures load current.
-- **Load Power Calculation**: Calculates instantaneous power using \( P = V \times I \) (approximated for AC loads).
+- **Load Power Calculation**: Calculates instantaneous power using the formula:
+
+  \[
+  P = V \times I
+  \]
+
+  (approximated for AC loads).
 - **Serial Communication**: Sends measurement data and system status to a webserver.
 
 ### Control Algorithm
@@ -91,5 +96,3 @@ The system uses an intelligent algorithm to activate or deactivate UPS units bas
 2. **Scalability**: Can be expanded to manage more UPS units with minor modifications.
 3. **User Accessibility**: Real-time monitoring and control through a simple web interface.
 4. **Robust Design**: Seamless integration of hardware and software components for reliable operation.
-
----
