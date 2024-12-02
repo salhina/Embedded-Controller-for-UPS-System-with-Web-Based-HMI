@@ -33,7 +33,7 @@ The system uses an intelligent algorithm to activate or deactivate UPS units bas
 
 ---
 
-## Screenshot
+## Implementation
 
 ![HMI Screenshot](https://github.com/user-attachments/assets/3588260b-6f96-4e27-ad4a-6b4b007b1821)
 
@@ -88,17 +88,5 @@ The system uses an intelligent algorithm to activate or deactivate UPS units bas
 - **[3 Other Colleagues]** (Total team size: 4)
 
 For more details, visit [Nabil Salhi’s portfolio](https://salhina.github.io/) or connect on [LinkedIn](https://www.linkedin.com/in/nabil-salhi).
-
----
-
-## Suggestions for Future Improvements
-1. **Expand Control Logic**:
-   - Introduce load forecasting or predictive algorithms for better power management.
-2. **Enhanced Visualization**:
-   - Add historical data storage and playback functionality to the web interface.
-3. **Integrate IoT Features**:
-   - Enable remote monitoring via mobile applications or cloud platforms.
-4. **Hardware Optimization**:
-   - Explore more advanced microcontrollers or processors for better performance and scalability.
 
 ---
