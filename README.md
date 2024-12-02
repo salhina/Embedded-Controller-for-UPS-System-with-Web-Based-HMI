@@ -1,5 +1,6 @@
 # Embedded UPS Controller with Web-Based HMI
 
+**Project Duration**: March 2013 - June 2013  
 This project was developed as part of the **end-of-year project** at **Sidi Mohammed Ben Abdellah University, Fez**, focusing on embedded control and power electronics. The objective was to design an embedded control system that manages a group of 4 UPS units based on real-time load measurements (amps and volts), adjusting power distribution accordingly. A custom **web-based Human-Machine Interface (HMI)**, powered by JavaScript, provides live monitoring and control of the UPS systems.
 
 ## Project Overview
@@ -12,10 +13,13 @@ The embedded control system, implemented in **C** for the **PIC 16F877A** microc
 - **Web-Based Interface**: Provides remote monitoring via a JavaScript-powered HMI accessible from any browser.
 - **Power Data Visualization**: Graphs display live measurements and system performance.
 - **Control Algorithm**: Intelligent UPS management based on **instantaneous load power consumption** (**p**), with a defined algorithm for activating UPS units:
-  - `p < 2.6k`: **Ond_1** (UPS unit #1) is active.
-  - `2.6k < p < 5.2k`: **Ond_1** (UPS unit #1) and **Ond_2** (UPS unit #2) are active.
-  - `5.2k < p < 7.85k`: **Ond_1** (UPS unit #1), **Ond_2** (UPS unit #2), and **Ond_3** (UPS unit #3) are active.
-  - `p > 7.85k`: All 4 UPS units (**Ond_1**, **Ond_2**, **Ond_3**, **Ond_4**) are active.
+
+| Power Range (p) | Ond_1 (UPS unit #1) | Ond_2 (UPS unit #2) | Ond_3 (UPS unit #3) | Ond_4 (UPS unit #4) |
+|-----------------|---------------------|---------------------|---------------------|---------------------|
+| **Low Power**   | **< 2.6k**          | Inactive            | Inactive            | Inactive            |
+| **High Power**  | **2.6k - 5.2k**     | Active              | Inactive            | Inactive            |
+| **Medium Power**| **5.2k - 7.85k**    | Active              | Active              | Inactive            |
+| **Full Power**  | **> 7.85k**         | Active              | Active              | Active              |
 
 ## HMI Screenshot
 
