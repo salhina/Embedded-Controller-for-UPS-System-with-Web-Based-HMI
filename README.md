@@ -20,7 +20,21 @@ This embedded control system is designed to manage multiple UPS systems, with th
 
 ![HMI Screenshot](https://github.com/user-attachments/assets/3588260b-6f96-4e27-ad4a-6b4b007b1821)
 
-*Above is the screenshot of the front-end HMI showing real-time data and graphs.*
+*Above is the screenshot from the final-year project titled "Projet de Fin d'Année - Contrôle Embarqué d'un Groupe des Onduleurs // Interface Homme Machine" from Université Sidi Mohammed Ben Abdellah, Morocco.*
+
+The interface provides real-time monitoring and control of a group of inverters, which is crucial for managing electrical systems efficiently. Key details from the screenshot include:
+
+- **Current Measurement**: 40.8 Amperes
+- **Voltage Measurement**: 151 Volts
+- **Power Consumption**: 6.15 KWatt
+- A graph titled **"la Puissance en temps reel"** (Power in real-time) showing power over time, with a peak around 10 Watts before dropping sharply to 0 Watts.
+- **UPS Control Algorithm**:
+  - `p < 2.6k`: Only **Ond_1** is active.
+  - `2.6k < p < 5.2k`: **Ond_1** and **Ond_2** are active.
+  - `5.2k < p < 7.85k`: **Ond_1**, **Ond_2**, and **Ond_3** are active.
+  - `p > 7.85k`: All 4 UPS systems (**Ond_1**, **Ond_2**, **Ond_3**, **Ond_4**) are active.
+
+Additionally, there are four buttons at the bottom of the interface labeled "Onduleur1," "Onduleur2," "Onduleur3," and "Onduleur4," showing the status of each inverter.
 
 ## Technologies Used
 
