@@ -23,13 +23,7 @@ For more information, visit [![Portfolio](https://img.shields.io/badge/GitHub-Po
 - **Real-Time Measurements**:
   - **Voltage Transformer**: Measures system voltage.
   - **Current Transformer**: Measures load current.
-- **Load Power Calculation**: Calculates instantaneous power using the formula:
-
-  \[
-  P = V \times I
-  \]
-
-  (approximated for AC loads).
+- **Load Power Calculation**: Calculates instantaneous power using the formula: **$P = V \times I$** (approximated for AC loads).
 - **Serial Communication**: Sends measurement data and system status to a webserver.
 
 ### Control Algorithm
