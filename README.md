@@ -93,3 +93,10 @@ The system uses an intelligent algorithm to activate or deactivate UPS units bas
   - **3 Other Colleagues** (Total team size: 4)  
 
 For more information, visit [![Portfolio](https://img.shields.io/badge/GitHub-Portfolio-blue?logo=github)](https://salhina.github.io/) or connect on [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/nabil-salhi).
+
+
+
+  <script type="text/javascript">
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+  </script>
+
