@@ -23,13 +23,17 @@ The embedded control system, implemented in **C** for the **PIC 16F877A** microc
 
 *Screenshot from the "Contrôle Embarqué d'un Groupe des Onduleurs" project at Université Sidi Mohammed Ben Abdellah.*
 
-### Data from the screenshot:
+### Instantaneous Data from the Screenshot:
 - **Current**: 40.8 Amperes
 - **Voltage**: 151 Volts
 - **Power Consumption**: 6.15 KWatt
 - **Power Graph**: Real-time power monitoring showing fluctuations and load behavior.
 
-The interface also features four buttons that indicate the status of each inverter: **Onduleur1**, **Onduleur2**, **Onduleur3**, and **Onduleur4**.
+### UPS Status:
+- **Onduleur1, Onduleur2, Onduleur3**: **On**
+- **Onduleur4**: **Off**
+
+The interface also features four buttons that indicate the status of each inverter, providing direct control over the UPS units.
 
 ## Technologies Used
 - **Embedded Systems**: Developed with **C** for **PIC 16F877A** microcontroller.
