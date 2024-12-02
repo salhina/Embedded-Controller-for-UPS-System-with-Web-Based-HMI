@@ -98,22 +98,17 @@ For more information:
 
 
 ![](#knsksdfksdkfnksdnfksdsdlflsqqd)
-~~ fsdfsdf ~~
 
 
+<html><header>
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>  <script type="text/javascript">  MathJax.Hub.Queue(["Typeset", MathJax.Hub]);  </script>
+</header>
+</html>
 
 <!--
 -->
 
 
-<style>
-  .hidden {
-    display: none;
-  }
-</style>
-
-<p class="hidden">This text is hidden using CSS.</p>
 
 
 
