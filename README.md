@@ -11,7 +11,7 @@ The embedded control system, implemented in **C** for the **PIC 16F877A** microc
 - **Automated UPS Control**: Activates/deactivates UPS units based on real-time load power consumption.
 - **Web-Based Interface**: Provides remote monitoring via a JavaScript-powered HMI accessible from any browser.
 - **Power Data Visualization**: Graphs display live measurements and system performance.
-- **Control Algorithm**: Intelligent UPS management based on load power, with a defined algorithm for activating UPS units:
+- **Control Algorithm**: Intelligent UPS management based on **instantaneous load power consumption**, with a defined algorithm for activating UPS units:
   - `p < 2.6k`: **Ond_1** is active.
   - `2.6k < p < 5.2k`: **Ond_1** and **Ond_2** are active.
   - `5.2k < p < 7.85k`: **Ond_1**, **Ond_2**, and **Ond_3** are active.
@@ -46,12 +46,6 @@ The interface also features four buttons that indicate the status of each invert
 - **Web Interface**: Displays live measurements and controls the UPS units via browser-based interaction.
 - **UPS Management**: Controls the operation of each UPS unit depending on the power needs.
 
-## Installation and Setup
-
-1. **Hardware**: Connect the **PIC 16F877A** microcontroller to the UPS systems and the load.
-2. **Web Interface**: Set up a web server to host the interface, making it accessible through any browser.
-3. **Embedded Code**: Program the microcontroller with the provided **C** code to manage the UPS systems and send data to the interface.
-
 ## Contributing
 Feel free to fork the repository and submit pull requests with improvements or bug fixes.
 
@@ -59,5 +53,9 @@ Feel free to fork the repository and submit pull requests with improvements or b
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
+
+### Team Members
+- **Nabil Salhi**: Project Lead
+- **[3 Other Colleagues]**
 
 For more information on my work and projects, visit my [portfolio](https://salhina.github.io/) or connect with me on [LinkedIn](https://www.linkedin.com/in/nabil-salhi).
